@@ -1,0 +1,100 @@
+
+.container-fluid {
+  margin-top: 60px;
+}
+
+.product-border {
+  border: 1px solid #e9e9e9;
+}
+
+.breadcrumb {
+  background-color: transparent !important;
+}
+
+.badge-primary {
+  background-color: #4779e5 !important;
+}
+
+.btn-big {
+  padding: 15px 30% !important;
+}
+
+.btn-md {
+  padding: 10px 20% !important;
+}
+
+.product-slider {
+  list-style: none;
+  padding: 0;
+}
+
+.product-slider li {
+  margin-bottom: 30px;
+}
+
+.product-slider li:hover   {
+  opacity: 0.8;
+}
+
+.product-slider .active {
+  border-bottom: 3px solid black;
+}
+
+.product-slider img {
+  max-width: 100%;
+}
+
+.carousel-item {
+  width: 100%;
+  display: none;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  padding: 5%;
+}
+
+.carousel-item .active{
+  display: block;
+}
+
+.product-logo {
+  width: 60px;
+  height: 60px;
+}
+
+.product-logo img {
+  max-width: 100%;
+}
+
+.product-bid {
+  margin-top: 100px;
+  padding: 20px 0;
+  border-top: 1px solid #e9e9e9;
+  border-bottom: 1px solid #e9e9e9;
+}
+
+.product-bid-icons {
+  list-style: none;
+  display: flex;
+  margin-right: 10%;
+}
+
+.product-bid-icons li {
+  margin: 0 10px;
+}
+
+.product-info {
+  background-color: #e9e9e9;
+}
+
+.modal-bid .input-group-addon {
+  background-color: transparent !important;
+  border-radius: 0;
+}
+
+.modal-bid .input-group-addon + .form-control {
+  border-left: none;
+}

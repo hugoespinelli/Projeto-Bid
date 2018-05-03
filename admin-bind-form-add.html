@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script type="text/javascript" src="../node_modules/angular/angular.min.js"></script>
+
+    <link rel="stylesheet" href="./css/master.css">
+    <link rel="stylesheet" href="./css/admin-bind.css">
+
+    <link rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.0.10/css/all.css"
+    integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+    integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-1"></div>
+        <div class="col-sm-10">
+          <br>
+          <br>
+          <a href="./admin-bind-index.html" style="text-decoration: none; color: black;">
+            <span class="glyphicon glyphicon-chevron-left" style="padding: 0 5px;"> Voltar</span>
+          </a>
+          <h2>Registro do Produto</h2>
+          <hr>
+          <form class="">
+            <fieldset disabled>
+              <div class="form-group row">
+                <label for="inputEmail3" class="col-sm-2 col-form-label">ID produto</label>
+                <div class="col-sm-10">
+                  <input type="text" class="form-control" id="inputEmail3" value="#12345">
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="inputEmail3" class="col-sm-2 col-form-label">Produto</label>
+                <div class="col-sm-10">
+                  <input type="text" class="form-control" id="inputEmail3" value="Vestido Branco Estampado">
+                </div>
+              </div>
+            </fieldset>
+            <div class="form-group row">
+              <label for="inputEmail3" class="col-sm-2 col-form-label">Maquinario</label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control" id="inputEmail3" placeholder="Digite o Maquinario">
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="inputEmail3" class="col-sm-2 col-form-label">Tipo de Costura</label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control" id="inputEmail3" placeholder="Digite a costura">
+              </div>
+            </div>
+            <div class="form-group row">
+              <div class="col-sm-2">Beneficiamento</div>
+              <div class="col-sm-10">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="gridCheck1">
+                  <label class="form-check-label" for="gridCheck1">
+                    Sim
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div class="form-group row">
+              <div class="col-sm-2">Corte Interno</div>
+              <div class="col-sm-10">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="gridCheck1">
+                  <label class="form-check-label" for="gridCheck1">
+                    Sim
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="inputEmail3" class="col-sm-2 col-form-label">Tipo de Agulha</label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control" id="inputEmail3" placeholder="Digite o tipo de agulha">
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="inputEmail3" class="col-sm-2 col-form-label">Grade</label>
+              <div class="col-sm-2">
+                <input type="number" class="form-control" id="inputEmail3" placeholder="Ex: 230">
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="inputEmail3" class="col-sm-2 col-form-label">Tipo de Estamparia</label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control" id="inputEmail3" placeholder="Digite o tipo de estamparia">
+              </div>
+            </div>
+            <!-- FILE UPLOAD TEST -->
+            <div class="custom-file form-group row">
+              <div class="col-sm-2">
+                <label class="custom-file-label" for="customFile">Upload de fotos</label>
+              </div>
+              <input type="file" class="custom-file-input col-sm-10" id="imageProduct" multiple>
+              <div class="col-sm-2"></div>
+              <div class="col-sm-10">
+                <small>Mais de um arquivo pode ser selecionado. Segure Ctrl nas fotos que deseja escolher.</small>
+                <div class="col-md-12" id="photoField" style="border:3px dashed #e7e7e7; display: none;">
+                  <!-- <div class="col-md-3">
+                    <img src="" style="max-width: 100%;" alt="" class="product-border">
+                  </div> -->
+                </div>
+              </div>
+            </div>
+            <!-- END FILE UPLOAD TEST -->
+            <br>
+            <div class="row">
+              <div class="col-sm-2"></div>
+              <div class="col-sm-8">
+                <a href="./admin-bind-index.html"><button type="button" class="btn btn-primary">Cadastrar Produto</button></a>
+              </div>
+            </div>
+          </form>
+          <br>
+          <br>
+        </div>
+        <div class="col-sm-1"></div>
+      </div>
+    </div>
+  </body>
+
+  <script>
+    $(document).ready(function(){
+      $("#imageProduct").on("change", function(){
+        console.log(this.id);
+        $("#photoField").show();
+        $("#photoField").empty();
+        var files = this.files;
+        console.log(file);
+        var div = "";
+        for(var file of files) {
+          console.log(file);
+          var src = window.URL.createObjectURL(file);
+          div += '<div class="col-md-3 product-border"><img src="'+src+'" style="max-width: 100%;" alt=""> </div>'
+        }
+        // var src = window.URL.createObjectURL(file[0]);
+        // console.log(src);
+        // var div = '<div class="col-md-3"><img src="'+src+'" style="max-width: 100%;" alt="" class="product-border"> </div>'
+        // console.log(div);
+        $("#photoField").append(div);
+      });
+    });
+  </script>
+
+</html>

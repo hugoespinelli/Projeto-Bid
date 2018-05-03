@@ -1,0 +1,23 @@
+.card {
+  position: relative;
+}
+
+.card span {
+    padding: 0 5px;
+}
+
+.card-btn-supplier {
+  position: absolute;
+  top: 10%;
+  left: 5%;
+}
+
+.card-btn-supplier button {
+  cursor: default;
+  border: 1px solid #e9e9e9;
+  width: 35px;
+  height: 35px;
+  color: black;
+  border-radius: 50% !important;
+  background-color: transparent !important;
+}

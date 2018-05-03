@@ -1,0 +1,170 @@
+
+.btn {
+  font-weight: bold !important;
+  padding: 5px 30px !important;
+  border-radius: 0 !important;
+}
+
+.btn-primary-bind {
+  border: 0;
+  background-color: black;
+  color: #fff;
+}
+
+.btn-primary-bind:hover {
+  transition: 0.4s;
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+}
+
+.btn-secondary-bind {
+    border: 1px solid #e7e7e7 !important;
+    background-color: transparent;
+    color: black;
+
+}
+
+.btn-secondary-bind:hover {
+  color: #fff !important;
+  background-color: black;
+}
+
+.btn-primary-bind:hover {
+  color: #f9f9f9;
+}
+
+.sidebar {
+  background-color: #e9e9e9;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar-head {
+  background-color: black;
+  padding: 10px;
+  margin-top: 0px;
+  color: #fff;
+}
+
+.sidebar-submenu {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  list-style: none;
+  opacity: 0.7;
+}
+
+.sidebar-body li{
+  padding: 8px;
+  border-bottom: 1px solid #d7d7d7;
+}
+
+.sidebar-body a {
+  color: black;
+}
+
+.sidebar-body a:hover {
+  text-decoration: none;
+}
+
+.header-bar {
+  display: flex;
+}
+
+.input-search-group {
+    background: white !important;
+}
+
+.input-search-group .form-control {
+  border-right: 0;
+}
+
+.input-search-group input {
+  border-radius: 0;
+}
+
+.input-search-group span {
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 0;
+}
+
+.input-search-group button {
+  border: 0;
+  background: transparent;
+}
+
+.input-group-select {
+  display: flex;
+  vertical-align: middle;
+}
+
+.pagination {
+  margin-top: 0 !important;
+}
+
+.page-item a{
+  border: 1px solid #ccc;
+  border-radius: 0 !important;
+  color: black !important;
+}
+
+.active-page a {
+  background-color: black !important;
+  color: #fff !important;
+}
+
+.row .product-card {
+  margin-bottom: 50px;
+}
+
+.product-card {
+  width: 90%;
+}
+
+.product-card p {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.card-btn {
+  position: absolute;
+  top: 40%;
+  left: 27%;
+  transition: .5s ease;
+  opacity: 0;
+}
+
+.card-info {
+  opacity: 0;
+  position: absolute;
+  transition: .5s ease;
+  bottom: 10%;
+  width: 80%;
+  background-color: black;
+  color: #fff;
+}
+
+.card img {
+  max-width: 100%;
+  display: block;
+  opacity: 1;
+  transition: .5s ease;
+  padding: 10px;
+  border: 1px solid #e9e9e9;
+}
+
+.card:hover img {
+  opacity: 0.3;
+}
+
+.card:hover .card-btn {
+  opacity: 1;
+}
+
+.card:hover .card-info {
+  opacity: 1;
+}
